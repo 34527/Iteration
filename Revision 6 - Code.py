@@ -1,9 +1,7 @@
 #Euan McElhoney
-#17/10/14
-#Iteration - Revision 5
+#21/10/14
+#Iteration class exercises - Revision 6
 
-print ("|Value 1 | Value 2  |")
-print ("|Value 3 | Value 4  |")
-print ("|Value 5 | Value 6  |")
-print ("|Value 7 | Value 8  |")
-print ("|Value 9 | Value 10 |")
+for count in range(1,21):
+    conversion = count * 2.2
+    print("{0:^2}kg = {1:^2}lb".format(count, conversion))
